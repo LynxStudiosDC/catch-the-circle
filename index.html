@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catch the Circle Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Catch the Circle!</h1>
+  <p>Score: <span id="score">0</span></p>
+  <p>Time Left: <span id="time">30</span> seconds</p>
+
+  <!-- Start Screen -->
+  <div id="start-screen">
+    <h2>Welcome to Catch the Circle!</h2>
+    <button id="start-button">Start Game</button>
+  </div>
+
+  <div id="game-area" style="display:none;">
+    <div id="circle"></div>
+  </div>
+
+  <!-- Game Over Screen -->
+  <div id="game-over-screen" style="display:none;">
+    <h2>Game Over!</h2>
+    <p>Your Final Score: <span id="final-score"></span></p>
+    <button id="restart-button">Restart Game</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 LynxStudios. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
